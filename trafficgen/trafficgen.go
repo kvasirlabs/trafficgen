@@ -99,6 +99,7 @@ func (g *Generator) Start() error {
             }
         }
     }
+    return nil
 }
 
 func getUrls(body io.Reader, httpRegex *regexp.Regexp) (urls []string) {
