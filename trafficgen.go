@@ -19,7 +19,7 @@ type HTTPGenerator struct {
     RootUrls []string
     // Max number of request rounds
     MaxDepth int
-    // Max number of requests per root branch per round
+    // Max number of requests per rootUrl per round
     MaxWidth int
     Timeout time.Duration
     // can be overwritten with SetCustomURLRegex
